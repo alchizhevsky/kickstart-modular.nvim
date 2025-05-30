@@ -1,3 +1,3 @@
 return {
-        {'Shatur/neovim-tasks',}
+  { 'Shatur/neovim-tasks' },
 }
