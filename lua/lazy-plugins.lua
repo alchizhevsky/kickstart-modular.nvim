@@ -1,10 +1,9 @@
 require('lazy').setup({
-  require 'plugins.tasks',
   require 'plugins.telescope',
   { import = 'plugins/appearance' },
   { import = 'plugins/language_support' },
   { import = 'plugins/qol' },
-  { import = 'plugins/debug' },
+  { import = 'plugins/build-and-debug' },
   --	{ import = "plugins/fun" },
 }, {
   ui = {

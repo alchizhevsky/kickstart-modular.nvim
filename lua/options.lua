@@ -6,9 +6,6 @@
 -- expand tab
 vim.cmd 'set expandtab'
 
--- mb unnecessary, since LSPs overwrite it
--- vim.opt.ts = 4
-
 -- Make line numbers default
 vim.opt.number = true
 vim.opt.relativenumber = true
