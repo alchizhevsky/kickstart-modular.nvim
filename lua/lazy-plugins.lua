@@ -1,10 +1,11 @@
 require('lazy').setup({
-  { import = 'plugins/navigation' },
   { import = 'plugins/appearance' },
+  { import = 'plugins/navigation' },
   { import = 'plugins/language_support' },
-  { import = 'plugins/qol' },
   { import = 'plugins/build-and-debug' },
-  {import = 'plugins/ai'}
+  { import = 'plugins/git' },
+  { import = 'plugins/qol' },
+  { import = 'plugins/ai' },
   --	{ import = "plugins/fun" },
 }, {
   ui = {
