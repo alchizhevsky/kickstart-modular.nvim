@@ -26,6 +26,7 @@ return {
         size = { width = 60, height = 'auto' },
         border = { style = 'rounded', padding = { 0, 1 } },
         win_options = {
+          winblend = 0,
           winhighlight = {
             Normal = 'Normal',
             FloatBorder = 'DiagnosticInfo',
@@ -38,6 +39,7 @@ return {
         size = { width = 60, height = 10 },
         border = { style = 'rounded', padding = { 0, 1 } },
         win_options = {
+          winblend = 0,
           winhighlight = {
             Normal = 'Normal',
             FloatBorder = 'DiagnosticInfo',
