@@ -1,9 +1,10 @@
 require('lazy').setup({
-  require 'plugins.telescope',
+  { import = 'plugins/navigation' },
   { import = 'plugins/appearance' },
   { import = 'plugins/language_support' },
   { import = 'plugins/qol' },
   { import = 'plugins/build-and-debug' },
+  {import = 'plugins/ai'}
   --	{ import = "plugins/fun" },
 }, {
   ui = {
